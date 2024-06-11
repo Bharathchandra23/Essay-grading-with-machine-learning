@@ -5,7 +5,7 @@ from sklearn.metrics import mean_squared_error
 
 # Text vectorization with TF-IDF
 vectorizer = TfidfVectorizer()
-X = vectorizer.fit_transform(data['essay'])
+X = vectorizer.fit_transform(data['essay_dataset'])
 y = data['grade']
 
 # Split the data into training and testing sets
